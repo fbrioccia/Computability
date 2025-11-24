@@ -137,7 +137,7 @@ print_endline (Printf.sprintf "left(12): %d" (left 12));;
  
  (** [right n] computes the y component of the Cantor Pairing Function on [n]
 	 
-	 @param n The non-negative integer for which compute the x term of the CPF.
+	 @param n The non-negative integer for which compute the y term of the CPF.
 	 @return The value of $n!$.
 	 @raise Invalid_argument if [n] is negative.
 	 
